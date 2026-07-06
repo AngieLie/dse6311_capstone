@@ -60,4 +60,4 @@ capstone-project/
 
 ---
 # Student Sign-in
-<span style="color:red;">Dr. Geist</span>
+📊  Dr. Geist  🍄

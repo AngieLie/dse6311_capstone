@@ -23,41 +23,41 @@ I like to embed some links like [the Merrimack homepage](https://www.merrimack.e
 
 ---
 # Repository for the DSE6311 Capstone at Merrimack College
-## 
+## One possible way to consider organizing your Capstone project.
+
 ```
 capstone-project/
 │
 ├── README.md                  # Project overview and setup instructions
 ├── LICENSE                    # Optional
 ├── .gitignore                 # Files Git should ignore
-├── requirements.txt           # Python dependencies (or environment.yml)
+├── requirements.txt           # Dependencies (or environment.yml)
+├── FinalDeliverable.pdf
 │
 ├── data/
 │   ├── raw/                   # Original data (never modify)
-│   ├── interim/               # Temporary cleaned data
+│   ├── interim/               # Temporary cleaned data (do not leave larged datasets)
 │   ├── processed/             # Final modeling datasets
 │   └── external/              # Public or third-party datasets
 │
-├── notebooks/
-│   ├── exploratory/
+├── reports/
+│	├── proposal/
+│   ├── EDA/
+│   ├── cleaning_preprocessing/
 │   ├── modeling/
 │   └── archive/
 │
-├── src/
-│   ├── data/
-│   ├── features/
-│   ├── models/
-│   └── visualization/
-│
-├── reports/
-│   ├── figures/
-│   ├── tables/
-│   └── presentations/
-│
-├── docs/
-│   ├── meeting-notes/
-│   ├── project-plan/
-│   └── references/
-│
-└── tests/                     # Optional
+└── source/					   # Source files
+    ├── data/				   # Data handling (wrangling, cleaning, preprocessing)
+    ├── features/			   # Feature selection
+    ├── models/				   # Fitted models
+    │	├── baseline/
+    │	├── RF/
+    │	└── GBM/	
+    └── visualization/		   # EDA
+
 ```
+
+---
+# Student Sign-in
+<span style="color:#00B8D9;">Dr. Geist</span>
